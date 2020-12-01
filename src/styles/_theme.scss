@@ -1,0 +1,42 @@
+// Variables
+//
+// Variables should follow the `$component-state-property-size` formula for
+// consistent naming. Ex: $nav-link-disabled-color and $modal-content-box-shadow-xs.
+
+// Color system
+
+$primary:       #F69C8A !default;
+
+// Body
+//
+// Settings for the `<body>` element.
+
+$body-bg:                   #FFF5E0 !default;
+$body-color:                #5C536B !default;
+
+// Typography
+//
+// Font, line-height, and color for body text, headings, and more.
+
+// stylelint-disable value-keyword-case
+$font-family-sans-serif:      'Montserrat', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !default;
+
+$font-size-base:              1rem !default; // Assumes the browser default, typically `16px`
+$font-size-lg:                $font-size-base * 1.125 !default;
+$font-size-sm:                $font-size-base * .75 !default;
+
+$h1-font-size:                $font-size-base * 4 !default;
+
+$headings-color:              #190933 !default;
+
+// Navbar
+
+$navbar-brand-font-size:            $font-size-base * 1.5 !default;
+
+$navbar-light-color:                #190933 !default;
+$navbar-light-hover-color:          $navbar-light-color !default;
+$navbar-light-active-color:         $navbar-light-color !default;
+$navbar-light-disabled-color:       $navbar-light-color !default;
+$navbar-light-toggler-border-color: transparent !default;
+
+$app-navbar-light-bg:               $body-bg !default;
