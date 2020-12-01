@@ -17,5 +17,3 @@ jobs:
       run: yarn run lint
     - name: Unit Tests
       run: yarn run test
-    - name: E2E Tests
-      run: yarn run e2e
