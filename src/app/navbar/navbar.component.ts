@@ -7,7 +7,7 @@ import { faBars } from '@fortawesome/free-solid-svg-icons';
   styleUrls: ['./navbar.component.scss']
 })
 export class NavbarComponent implements OnInit {
-  public navbarOpen: boolean = false;
+  public navbarOpen = false;
   public faBars = faBars;
 
   constructor() { }
@@ -15,7 +15,7 @@ export class NavbarComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  toggleNavbar() {
+  toggleNavbar(): void {
     this.navbarOpen = !this.navbarOpen;
   }
 }
