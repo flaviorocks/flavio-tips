@@ -1,0 +1,25 @@
+<nav class="navbar navbar-light navbar-expand-md sticky-top">
+  <div class="container">
+    <a class="navbar-brand" href="#">FlavioTips</a>
+    <button class="navbar-toggler" type="button" (click)="toggleNavbar()">
+      <fa-icon [icon]="faBars"></fa-icon>
+    </button>
+    <div class="collapse navbar-collapse"
+         [ngClass]="{ 'show': navbarOpen }">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Lifestyle <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Tech</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Productivity</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Health</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
