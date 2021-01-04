@@ -1,9 +1,33 @@
 .media-article {
+  padding: 1rem;
+  border-radius: $border-radius-lg;
+  box-shadow: 0 32px 32px 0 rgba(255, 219, 195, 0.4),
+  0 16px 16px 0 rgba(255, 219, 195, 0.4),
+  0 8px 8px 0 rgba(255, 219, 195, 0.4),
+  0 4px 4px 0 rgba(255, 219, 195, 0.4),
+  0 2px 2px 0 rgba(255, 219, 195, 0.4);
+
+  .title a {
+    color: $headings-color;
+  }
+
+  p {
+    font-size: .875rem;
+    font-weight: $font-weight-light;
+  }
+
   figure {
+    margin-right: 1rem;
+    margin-bottom: 0;
+
     img {
       width: 70px;
       height: 70px;
       object-fit: cover;
+
+      &.figure-img {
+        margin-bottom: 0;
+      }
 
       @include media-breakpoint-up(md) {
         width: 253px;
